@@ -1,0 +1,76 @@
+.poster-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poster-image-div {
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.poster-image {
+  object-fit: cover;
+  width: 100%;
+}
+.poster-text {
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+}
+
+.poster-text h1 {
+  font-size: xxx-large;
+  background: -webkit-linear-gradient(green, #a93d5d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.poster-buy-button {
+  margin-top: -20px;
+  background-color: #a93d5d;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .poster-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .poster-image-div {
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+  }
+  .poster-image {
+    object-fit: cover;
+    width: 100%;
+  }
+  .poster-text {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .poster-text h1 {
+    font-size: 100px;
+    background: -webkit-linear-gradient(green, #a93d5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .poster-buy-button {
+    background-color: #a93d5d;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: -30px;
+    cursor: pointer;
+  }
+}

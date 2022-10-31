@@ -1,0 +1,7 @@
+.star-container{
+    display: flex;
+    align-items: center;
+}
+.star-icon{
+    color: #FCF41C;
+}

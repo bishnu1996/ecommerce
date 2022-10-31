@@ -1,0 +1,67 @@
+.footer {
+  padding: 16px 16px;
+  background-color: #282a35;
+  color: #ffff;
+}
+.degiency {
+  margin: 50px 0px 0px 0px;
+}
+.company {
+  margin: 50px 20px;
+}
+.services {
+  margin: 50px 20px;
+}
+.newsletter {
+  margin: 50px 20px 0px 20px;
+}
+.footer-main {
+  margin-bottom: 18px;
+}
+.footer-child {
+  margin-bottom: 10px;
+}
+.inputbox {
+  position: relative;
+}
+.inputimg {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+}
+.input-box-img {
+  background-color: #a93d5d;
+  position: absolute;
+  top: 2px;
+  right: -32px;
+  padding: 13px;
+  color: #ffff;
+}
+.down-img {
+  height: 20px;
+  width: 100%;
+  object-fit: contain;
+}
+.downfooter {
+  display: flex;
+  text-align: center;
+  background-color: #a93d5d;
+  color: #ffff;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+  }
+  .footer .degiency,
+  .company,
+  .services,
+  .newsletter {
+    flex: 1;
+  }
+  .downfooter {
+    display: flex;
+    justify-content: center;
+    background-color: #a93d5d;
+    color: #ffff;
+  }
+}
